@@ -1,1 +1,0 @@
-# LearnIT_DevOps_course_lesson_06
