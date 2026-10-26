@@ -53,7 +53,7 @@ example.com.		300	IN	A	104.20.23.154
 ;; WHEN: Sun Oct 25 23:40:23 CET 2026
 ;; MSG SIZE  rcvd: 72
 
-//got same thing, looks good//
+/got same thing, looks good/
 
 ____________________________________________________________________________________________
 **Checking trace:**
@@ -136,7 +136,7 @@ ________________________________________________________________________________
 patryk@patryk-GL62M-7RDX:~$ dig example.com MX +noall +answer
 example.com.		300	IN	MX	0 .
 ```
-//Clearly shows that is has no mailing server//
+/Clearly shows that is has no mailing server/
 
 ______________________________________________________________________________________________________________
 
@@ -156,7 +156,7 @@ Connection to example.com (2606:4700:10::6814:179a) 80 port [tcp/http] succeeded
 patryk@patryk-GL62M-7RDX:~$ 
 
 ```
-//Looks good to me and someone is lying//
+/Looks good to me and someone is lying/
 
 ____________________________________________________________________________________________________________
 
@@ -178,6 +178,6 @@ alt-svc: h3=":443"; ma=86400
 
 patryk@patryk-GL62M-7RDX:~$
 ```
-//Got 200, it shows it is good//
+/Got 200, it shows it is good/
 
 What to do - check computer of a person who told what is not working
